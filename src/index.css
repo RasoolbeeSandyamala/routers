@@ -1,0 +1,32 @@
+.cardsdiv{
+   
+  transition: all ease 1s;
+}
+img:hover{
+  scale: 1.2;
+}
+#btn1{
+  padding: 8px 12px;
+  background-color: orangered;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  transition: all ease 1s;
+}
+#btn1:hover{
+  background-color:aquamarine;
+  color:red;
+  scale: 1;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+#active{
+  color: orangered !important;
+  border-bottom: 2px solid orangered !important;
+}
+ .link1:hover{
+  color: orangered !important;
+  border-bottom: 2px solid orangered;
+}
